@@ -1,39 +1,36 @@
 <link rel="stylesheet" href="style.css">
 
 <header id="header">
-    <div id="img-header">
-        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/1200px-Logo-ubuntu_cof-orange-hex.svg.png" alt="logo" id="logo"> </a>
+    <div id="logo-brand">
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/1200px-Logo-ubuntu_cof-orange-hex.svg.png" alt="logo" id="header-img"> </a>
         <div id="brand">
             <h1>Ubuntu</h1>
         </div>
     </div>
     <nav id="nav-bar">
-        <div class="nav-link">
-            <a href="#feature">Feature</a>
-        </div>
-        <div class="nav-link">
-            <a href="#preview">Preview</a>
-        </div>
-        <div class="nav-link">
-            <a href="#version">Version</a>
-        </div>
+        <a class="nav-link" href="#feature">Feature</a>
+        <a class="nav-link" href="#preview">Preview</a>
+        <a class="nav-link" href="#version">Version</a>
     </nav>
 </header>
 
 <main id="main">
     <div id="contact">
-        <p>Receive the latest news from us</p>
-        <form action=" https://www.freecodecamp.com/email-submit" id="form">
-            <input type="email" id="email" name="email" required placeholder="Enter your email.."> <label for="email"></label>
-            <input type="submit" id="submit" name="submit">
-        </form>
+        <div id="contact-caption">Receive the latest news from us</div>
+        <div id="contact-content">
+            <form action=" https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" id="email" name="email" required placeholder="Enter your email..">
+                <br>
+                <input type="submit" id="submit" name="submit">
+            </form>
+        </div>
     </div>
     <br><br>
     <hr>
     <br><br>
     <div id="feature">
         <div id="feature-caption">
-            Three big feature of ubuntu 20.04
+            Three big feature in ubuntu 20.04
         </div>
         <div id="feature-content">
             <div class="feature-template">
@@ -43,13 +40,13 @@
                 </div>
             </div>
             <div class="feature-template">
-                <img class="feature-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxPGTQgevks31426weFgFHSZQvbdIEbEIQhg&usqp=CAU" alt="">
+                <img class="feature-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYeufe-Oucn9UAhHC8GjPg2W_o_OmLUqaCQQ&usqp=CAU" alt="">
                 <div class="feature-explain">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam a quasi aliquam quas inventore voluptatem fugit quam reiciendis sit? Atque, blanditiis fugiat. Sapiente, tempora magni quod ratione nisi dolorem.
                 </div>
             </div>
             <div class="feature-template">
-                <img class="feature-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYeufe-Oucn9UAhHC8GjPg2W_o_OmLUqaCQQ&usqp=CAU" alt="">
+                <img class="feature-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxPGTQgevks31426weFgFHSZQvbdIEbEIQhg&usqp=CAU" alt="">
                 <div class="feature-explain">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam a quasi aliquam quas inventore voluptatem fugit quam reiciendis sit? Atque, blanditiis fugiat. Sapiente, tempora magni quod ratione nisi dolorem.
                 </div>
@@ -61,10 +58,10 @@
     <br><br>
     <div id="preview">
         <div id="preview-caption">
-            Here is all what news in Ubuntu 20.04.
+            Here is all what news in Ubuntu 20.04
         </div>
         <div id="preview-content">
-            <iframe id="video" width="100%" height="100%" src="https://www.youtube.com/embed/8WbyB_2HthM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="video" src="https://www.youtube.com/embed/8WbyB_2HthM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <br><br>
@@ -72,7 +69,7 @@
     <br><br>
     <div id="version">
         <div id="version-caption">
-            Choose which version you want :
+            Choose which platform you want
         </div>
         <div id="version-content">
             <div class="version-template">
@@ -92,8 +89,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="buy">
-                    <button> Buy</button>
+                <div>
+                    <button class="buy"> Buy</button>
                 </div>
             </div>
             <div class="version-template">
@@ -113,13 +110,13 @@
                         </li>
                     </ul>
                 </div>
-                <div class="buy">
-                    <button> Buy</button>
+                <div>
+                    <button class="buy"> Buy</button>
                 </div>
             </div>
             <div class="version-template">
                 <div class="version-name">
-                    Long Time Support
+                    LTS
                 </div>
                 <div class="version-explain">
                     <ul>
@@ -134,19 +131,23 @@
                         </li>
                     </ul>
                 </div>
-                <div class="buy">
-                    <button> Buy</button>
+                <div>
+                    <button class="buy"> Buy</button>
                 </div>
             </div>
+        </div>
+        <div id="version-info">
+            You can find more information about version <a href="https://wiki.ubuntu.com/Releases" target="_blank">here</a>
         </div>
     </div>
     <br><br>
     <hr>
     <br><br>
+    <footer id="footer">
+        <br>
+        <h3>
+            &copy; Ubuntu 2020
+        </h3>
+        <br>
+    </footer>
 </main>
-<footer id="footer">
-    <div>
-        Ubuntu 2019 Copyright
-
-    </div>
-</footer>
