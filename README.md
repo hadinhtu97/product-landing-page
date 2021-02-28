@@ -19,3 +19,6 @@ An upcoming product launch page.
 13. The navbar should always be at the top of the viewport.
 14. My product landing page should have at least one media query.
 15. My product landing page should utilize CSS flexbox at least once.
+
+### Demo
+[Link Demo](https://codepen.io/hadinhtu97/full/jOrpZrM)
